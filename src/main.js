@@ -140,4 +140,15 @@ let arrNew = [...arr, ...num];
 console.log (arrNew);
 
 //ass7
+let grid = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+let arr = grid[1][2]; 
+console.log(arr);  
+
+grid[0][1] = 10; 
+console.log(grid);
 
